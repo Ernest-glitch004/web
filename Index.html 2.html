@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+   /* Bitácora de Ernesto Soto Flores Jr
+    Introducción a HTML 5 y CSS3
+    Grupo B */
+    <style>  
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(107, 241, 241);
+        }
+
+        /* Header Rojo */
+        .header-rojo {
+            background-color: rgb(228, 27, 27);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Header Azul */
+        .header-azul {
+            background-color: rgb(57, 57, 235);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Estilos adicionales */
+        .highlight {
+            color: rgb(202, 4, 4);
+            font-weight: bold;
+        }
+
+        #portada {
+            background-image: url("E:/Wikizilla's Background.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-rojo">Esto es un Header Rojo</header>
+    <header class="header-azul">Esto es un Header Azul</header>
+
+    <h1>Explicación de Etiquetas HTML</h1>
+    <h1 style="color: blue;">¡Hola Mundo!</h1>
+
+    <h2>1. Edición de Colores y Tamaños de Texto</h2>
+    <p>Para cambiar el <span class="highlight">color</span> y el <span class="highlight">tamaño</span> del texto en HTML, usamos CSS:</p>
+
+    <pre>
+        &lt;p style="color: red; font-size: 30px;"&gt;Este es un texto rojo y grande&lt;/p&gt;
+    </pre>
+
+    <p style="color: red; font-size: 30px;">Este es un texto rojo y grande</p>
+
+    <div id="portada"></div>
+
+    <h2>2. Inclusión de Enlaces</h2>
+    <p>Para agregar enlaces a imágenes, videos o ubicaciones, usamos la etiqueta <span class="highlight">&lt;a&gt;</span>, <span class="highlight">&lt;img src&gt;</span> y <span class="highlight">&lt;iframe&gt;</span> respectivamente:</p>
+    
+    <ul>
+        <li>Enlace a una imagen: 
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Godzilla_%281954%29.jpg/1200px-Godzilla_%281954%29.jpg" width="300">
+        </li>
+        <li>Enlace a un video: 
+            <a href="https://www.youtube.com/watch?v=OWKXPinNl7c">Clic aquí</a>
+            <a href="https://youtu.be/-co6dNbXh5w">Clic aquí</a>
+        </li>
+        <li>Ubicación en Google Maps: 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.7111463128144!2d139.59959278882062!3d35.63484686188915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f15c03af6039%3A0x60aaba797bbd31da!2sToho%20Studios!5e0!3m2!1ses-419!2smx!4v1738789679276!5m2!1ses-419!2smx" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </li>
+    </ul>
+
+    <h2>3. Creación de Listas</h2>
+    <p>Pode
